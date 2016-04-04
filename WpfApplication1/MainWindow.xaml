@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d" Height="115" Width="280" Topmost="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown" Background="Transparent" WindowStyle="None" ResizeMode="NoResize" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top" Activated="Window_Activated" SnapsToDevicePixels="True">
+    <Grid Background="White">
+        <TextBox x:Name="InputText" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" KeyDown="InputText_KeyDown" BorderThickness="0,0,0,2" Background="#00000000" Foreground="Black" BorderBrush="White" FontSize="14.667" GotMouseCapture="InputText_GotMouseCapture" Text="Текст Сюда " FontFamily="Calibri">
+            <TextBox.Effect>
+                <DropShadowEffect Direction="330" ShadowDepth="3" Opacity="0.75" BlurRadius="2" Color="#FFBFBFBF"/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="OuputText" HorizontalAlignment="Left" Height="25" Margin="10,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" BorderThickness="0,0,0,2" Background="#00000000" BorderBrush="White" FontSize="14.667" TextChanged="OuputText_TextChanged" Text="Translate Where" GotMouseCapture="OuputText_GotMouseCapture" FontFamily="Calibri">
+            <TextBox.Effect>
+                <DropShadowEffect Direction="330" ShadowDepth="3" Opacity="0.75" Color="#FFBFBFBF" BlurRadius="2"/>
+            </TextBox.Effect>
+
+        </TextBox>
+        
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="93.162" Height="25" Background="{x:Null}" IsSynchronizedWithCurrentItem="True" SelectedIndex="0" FontFamily="Calibri">
+            <ComboBox.Effect>
+                <DropShadowEffect Direction="330" ShadowDepth="3" Opacity="0.5" BlurRadius="2" Color="#FFBFBFBF"/>
+            </ComboBox.Effect>
+            <ListBoxItem x:Name="Listlanguage" Cursor="Arrow" Content="English" FontSize="14.667"/>
+            <ListBoxItem Content="Germany"/>
+            <ListBoxItem Content="Russian"/>
+            <ListBoxItem Content="China"/>
+        </ComboBox>
+        <Button x:Name="TranlateButton" Content="T" HorizontalAlignment="Left" Margin="108.162,40,0,0" VerticalAlignment="Top" Width="24.621" Height="25" Click="TranlateButton_Click" BorderThickness="0" FontFamily="Calibri">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Direction="330" ShadowDepth="3" Opacity="0.5" BlurRadius="2" Color="#FFBFBFBF"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="ExitButton" Content="E" HorizontalAlignment="Right" Margin="0,40,10,0" VerticalAlignment="Top" Width="21" Height="25" Click="button_Click" BorderThickness="0" Background="{x:Null}" BorderBrush="#FF707070" Foreground="Black" FontFamily="Calibri">
+            <Button.Effect>
+                <DropShadowEffect Direction="330" ShadowDepth="2" Opacity="0.5" Color="#FFBFBFBF" BlurRadius="1"/>
+            </Button.Effect>
+        </Button>
+        <ToggleButton x:Name="ShowDopToggleButton" Content="|||"  Margin="10,0,10,5" RenderTransformOrigin="0.713,1.36" Background="{x:Null}" VerticalAlignment="Bottom" Height="12"  Click="ShowDopToggleButton_Click" Visibility="Hidden">
+            <ToggleButton.Effect>
+                <DropShadowEffect BlurRadius="10" Direction="-330" ShadowDepth="7"/>
+            </ToggleButton.Effect>
+        </ToggleButton>
+        <Button 
+            x:Name="SpeakTextButton"  Content="S"  HorizontalAlignment="Left" Margin="137.783,40,0,0" VerticalAlignment="Top" Width="24.621" Height="25" Click="SpeakTextButton_Click" BorderThickness="0" FontFamily="Calibri">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Direction="330" ShadowDepth="3" Opacity="0.5" BlurRadius="2" Color="#FFBFBFBF"/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>

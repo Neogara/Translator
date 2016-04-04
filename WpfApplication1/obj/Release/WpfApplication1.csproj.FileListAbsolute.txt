@@ -1,0 +1,23 @@
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\Newtonsoft.Json.dll
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\Newtonsoft.Json.xml
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\Interop.SpeechLib.dll
+C:\Users\Neogara\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.ResolveComReference.cache
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\TranslateApp.exe.config
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\TranslateApp.exe
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\TranslateApp.pdb
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\TranslateApp_MarkupCompile.cache
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\TranslateApp_MarkupCompile.lref
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\TranslateApp.g.resources
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfTransliteApp.Properties.Resources.resources
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\TranslateApp.exe
+C:\Users\Neogara\Documents\Visual Studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\TranslateApp.pdb
+E:\Свои проги\Translater\WpfApplication1\bin\Release\TranslateApp.exe.config
+E:\Свои проги\Translater\WpfApplication1\obj\Release\Interop.SpeechLib.dll
+E:\Свои проги\Translater\WpfApplication1\obj\Release\WpfApplication1.csproj.ResolveComReference.cache
+E:\Свои проги\Translater\WpfApplication1\obj\Release\TranslateApp.exe
+E:\Свои проги\Translater\WpfApplication1\obj\Release\TranslateApp.pdb
